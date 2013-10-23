@@ -22,7 +22,7 @@ Do it!
 	`cd vagrant-stash`
 1. Start up and provision automatically all dependencies in the vm
 	`vagrant up --provision` 
-1. *** You're almost DONE! *** --> open [stash][8] & configure it
+1. *** You're almost DONE! *** --> open the [stash setup page][8] (http://localhost:7990/setup) & configure it
 
 
 Thanks
