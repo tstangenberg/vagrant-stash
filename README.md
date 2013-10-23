@@ -8,8 +8,9 @@ What will it do?
 
 1. Download Ubuntu 12.04
 1. Create a new virtual machine, install Ubuntu and forward port 7990
-1. Download & Install [Java][6]
-1. Download & Install & Start [Stash][1]
+1. Inside the virtual machine 
+  1. Download & Install [Java][6]
+  1. Download & Install & Start [Stash][1]
  
 Do it!
 ------
