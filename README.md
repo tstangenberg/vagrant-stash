@@ -17,7 +17,7 @@ Do it!
 
 1. Install [VirtualBox][4] and [Vagrant][2] and make sure you have [git][5] available.
 1. Open your favorite terminal (mine is [iTerm2][7]) and clone the github repository 
-```Shell
+```
 git clone --recursive https://github.com/tstangenberg/vagrant-stash.git
 cd vagrant-stash
 ```
