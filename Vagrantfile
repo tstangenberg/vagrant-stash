@@ -9,6 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.customize ["modifyvm", :id, "--ioapic", "on", "--memory", "1024", "--cpus", "2"]
   config.vm.forward_port 7990, 7990		# http port
   config.vm.forward_port 7999, 7999     # ssh  port
+  config.vm.host_name = "stash"
     config.vm.provision :puppet, :module_path => "modules" do |puppet|
     puppet.manifests_path = "manifests"
     puppet.manifest_file  = "default.pp"
